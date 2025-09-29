@@ -1,6 +1,6 @@
 
 * {
-    font-family: "Atkinson Hyperlegible Next", sans-serif;
+    font-family: "Atkinson Hyperlegible Next", sans-serif; /* Imported from Google Fonts */
 }
 
 body {
@@ -18,11 +18,10 @@ h1 {
 }
 
 
-
+/* ---------------------------------- Navigation ---------------------------------- */
 .navbar {
     padding: 20px 30px;
 }
-
 .navbar ul {
     display: flex;
     list-style: none;   
@@ -32,9 +31,7 @@ h1 {
     justify-content: end;
     
 }
-
-/* To make the navbar responsive */
-@media (max-width: 600px) {
+@media (max-width: 600px) { /* To make responsive */
     .navbar {
         flex-direction: column;
     }
@@ -46,14 +43,30 @@ h1 {
     
 }
 
+/* ------------------------------- Search & Misc ------------------------------- */
+
 .search {
     display: flex;
     justify-content: flex-end;
     padding: 20px;
 }
 
+/* Misc */
+.hero {
+    padding: 135px;
+}
+.extra-space{
+    padding-bottom: 30px;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
 
-
+/* ------------------------- Containers: Non-flex and flex ------------------------- */
 .container {
     max-width: 900px;
     margin: 0;
@@ -64,15 +77,16 @@ h1 {
     display: flex;
     align-items: flex-start;
     padding: 30px;
+    flex-wrap: wrap;  
 }
 
-/* For the Walmart logo */
+
+/* ------------------------------------ Images ------------------------------------ */
 .logo {
     display: flex;
     flex: 1;
 }
-/* This is the expanding image (central) */
-.expandable {
+.expandable {               /* To make image expandable */
     width: 120px;
     transition: transform 0.3s ease;
 }
@@ -81,7 +95,7 @@ h1 {
 }
 
 
-
+/* Images and Macros */
 .img-carousel {
     height: 10px;
 }
@@ -94,7 +108,7 @@ h1 {
     padding: 40px;
 }
 
-
+/* -------------------------------- Walmart Section -------------------------------- */
 
 .column1 {
     flex: 1;
@@ -103,7 +117,7 @@ h1 {
     flex: 3;
 }
 
-
+/* ------------------------------------ Colors ------------------------------------ */
 
 .blue-background {
     display: flex;
@@ -114,7 +128,9 @@ h1 {
 .white-background {
     display: flex;
     justify-content: center;
+    /* margin: 0; */
 }
+
 
 .dark {
     background-color: #041b66;
@@ -124,7 +140,7 @@ h1 {
     color: white;
 }
 
-
+/* ------------------------------------ Button ------------------------------------ */
 
 .btn {
     padding: 9px 19px;
@@ -144,22 +160,14 @@ h1 {
   background-color: #7eaee5;
 }
 
-html {
-  scroll-behavior: smooth;
+
+/* --------------------------------- Footer/Bottom --------------------------------- */
+
+.footer {
+    padding-top: 10px;
 }
 
-
-.small-br {
-    line-height: 0.5;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-/* To make footer responsive */
-@media (max-width: 600px) {
+@media (max-width: 600px) { /* To make responsive */
     .flex-container {
         flex-direction: column;
     }
