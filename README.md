@@ -2,11 +2,11 @@
 
 ---
 
-- Your Name: Your Name
-- GitHub Username: Your GitHub Username
-- Repository URL: https://
-- Date Submitted: YYYY-MM-DD
-- Collaborators: List any collaborators here (if none, write "None")
-- Comments: Any comments you have for the instructor about the assignment.
+- Your Name: Chelsea Alysson Ongjoco
+- GitHub Username: Paymvi
+- Repository URL: https://github.com/Paymvi/lab-1
+- Date Submitted: 2025-09-29
+- Collaborators: None
+- Comments: N/A
 
 ---
