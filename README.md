@@ -7,7 +7,8 @@
 - Repository URL: https://github.com/Paymvi/lab-1
 - Date Submitted: 2025-09-29
 - Collaborators: None
-- Comments: The site was inspired by Fairlife website: https://fairlife.com/. Also, I used w3schools to reference information about CSS flexbox or other misc CSS syntax, and I asked Chatgpt for instructions to import fonts.
+- Comments: The site was inspired by the Fairlife website: https://fairlife.com/. Also, I used w3schools to reference information about CSS flexbox and other misc CSS syntax, and I asked Chatgpt for instructions to import fonts.
+
 
 Requirements check:
 - Navigation is responsive
