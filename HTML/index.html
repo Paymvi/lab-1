@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel = "stylesheet" type="text/css" href="../CSS/style.css">
     
+    <!-- To link the font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
@@ -13,18 +14,29 @@
 </head>
 <body>
 
-
+    
+    <!-- Responsive Navigation bar -->
     <nav class="navbar dark white">
-        <ul>
+        <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#macros">Products</a></li>
             <li><a href="#footer">Contact Us</a></li>
         </ul>
-        
     </nav>
 
-    <br><br><br><br><br><br><br><br><br><br><br>
+    <!-- Search bar -->
+     <div class="search">
+        <form action="#">
+            <input type="text" placeholder="Search...">
+            <button type="submit">
+                Search
+            </button>
+        </form>
+    </div>
 
+    <br><br><br><br><br><br><br><br><br>
+
+    <!-- Title screen -->
     <div class="white-background center">
 
         <div class="container">
@@ -42,15 +54,14 @@
 
     <br><br><br><br><br><br><br>
     <hr>
-
+    
+    <!-- Introduction -->
     <div class="white-background">
 
         <div id="more" class="container">
             <div>
                 <h2><strong>What is the purpose of this website?</strong></h2>
-                    <It>If you're an athlete or just want to be more healthy, it is inevitable to research <strong>macros</strong> of foods. It takes a lot of calculations in order to research properly though. <br><> So the purpose of this site is <em>to do the calculations for you</em>, to see if foods are truely macro friendly.</p>
-
-                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, voluptate repudiandae. Nisi, iusto explicabo illum hic culpa, cumque ex qui ducimus fuga dolorem laborum? Aliquid enim animi quibusdam quisquam eveniet!</p> -->
+                    <p>If you're an athlete or just want to be more healthy, it is inevitable to research <strong>macros</strong> of foods. It takes a lot of calculations in order to research properly though. <br> So the purpose of this site is <em>to do the calculations for you</em>, to see if foods are truely macro friendly.</p>
 
                     <br>
                     <details>
@@ -66,45 +77,40 @@
     </div>
 
 
-
+    <!-- "Why Walmart" Section -->
     <div class="blue-background">
-
         <div class="flex-container white">
 
-        <div class="column1 logo">
-            <img src="../Assets/Walmart.png" width=120px>
-        </div>
+            <div class="column1 logo expandable">
+                <img src="../Assets/Walmart.png" width=120px>
+            </div>
 
-        <div class="column2 text" id="walmart">
-            <h2>Why Walmart?</h2>
-            
-            <p>Walmart is one of the most <em>accessible</em> groceries stores in the US. Grocery stores like Marketbasket may not exist outside of New England but Walmart is recognized everywhere.</p>
-        </div>
+            <div class="column2 text" id="walmart">
+                <h2>Why Walmart?</h2>
+                
+                <p>Walmart is one of the most <em>accessible</em> groceries stores in the US. Grocery stores like Marketbasket may not exist outside of New England but Walmart is recognized everywhere.</p>
+            </div>
         
-    </div>
-
+        </div>
     </div>
 
     <br>
 
-
-
+    <!-- Beginning of Macros section -->
     <div class="white-background">
 
         <div class="center container">
             <h2><strong>Explore Walmart Macros</strong></h2>
             <p>The higher the protein/calorie ratio, the better!</p>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi libero ipsam veritatis? Commodi eum adipisci modi illo earum, consequatur est necessitatibus deserunt vitae illum placeat voluptas beatae expedita. Accusamus, temporibus?</p> -->
         </div>
 
     </div>
     
-    
+    <!-- Images and Macros -->
     <div class="white-background" id="macros">
 
         <div class="carousel">
             <div class="slides">
-
 
                 <div class="slide">
                     <img src="../Assets/fairlife_42g.png" alt="fairlife 42g" width=50px>
@@ -143,7 +149,6 @@
                     <p><strong>Macros:</strong><br>20g protein/100 cal</p>
                 </div>
 
-
             </div>
         </div>
     </div>
@@ -151,9 +156,8 @@
 
     </br><br><br><br>
     
-
-    <div class="dark white" id="footer">
-
+    <!-- Footer -->
+    <footer class="dark white footer" id="footer">
         <div class="flex-container">
 
             <div class="column1">
@@ -165,11 +169,11 @@
 
             <div class="column1">
                 <h3>Product</h3>
-                <a href="#macros">Fairlife 42g</a><br>
-                <a href="#macros">Fairlife 26g</a><br>
+                <a href="#macros">Fairlife 42g protein</a><br>
+                <a href="#macros">Fairlife 26g protein</a><br>
                 <a href="#macros">Fairlife skim<a><br>
                 <a href="#macros">RealGood Chicken Nuggets</a><br>
-                <a href="#macros">Ground Beef 85%</a><br>
+                <a href="#macros">Ground Beef 85% lean</a><br>
                 <a href="#macros">Chobani Zero sugar</a><br>
             </div>
 
@@ -180,12 +184,8 @@
             </div>
 
         </div>
-
         <br>
-
-    </div>
-
-
+    </footer>
 
     <p class="dark white bottom">@2025 chelseaalysson.ongjoco@snhu.edu, LLC. All rights reserved.</p>
 

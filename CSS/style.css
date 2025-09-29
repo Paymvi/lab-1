@@ -1,7 +1,6 @@
 
 * {
     font-family: "Atkinson Hyperlegible Next", sans-serif;
-
 }
 
 body {
@@ -21,30 +20,45 @@ h1 {
 
 
 .navbar {
-    /* background-color: grey; */
     padding: 20px 30px;
-
 }
 
 .navbar ul {
+    display: flex;
     list-style: none;   
     margin: 0;
     padding: 0;
-    display: flex;      /* make items line up horizontally */
-    gap: 15px;          /* space between items */
+    gap: 15px;          
     justify-content: end;
     
 }
 
-.container {
-    /* display: flex; */
-    max-width: 900px;
-    margin: 0;
-    /* background-color: beige; */
-    padding: 50px;
+/* To make the navbar responsive */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-end;
+    }
+    
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
 }
 
 
+
+.container {
+    max-width: 900px;
+    margin: 0;
+    padding: 50px;
+}
 .flex-container {
     max-width: 700px;
     display: flex;
@@ -52,12 +66,21 @@ h1 {
     padding: 30px;
 }
 
+/* For the Walmart logo */
 .logo {
     display: flex;
-    /* justify-content: center; */
     flex: 1;
-
 }
+/* This is the expanding image (central) */
+.expandable {
+    width: 120px;
+    transition: transform 0.3s ease;
+}
+.expandable:hover {
+    transform: scale(1.1);
+}
+
+
 
 .img-carousel {
     height: 10px;
@@ -65,7 +88,6 @@ h1 {
 
 .slides {
     display: flex;
-
 }
 
 .slide {
@@ -73,15 +95,13 @@ h1 {
 }
 
 
+
 .column1 {
     flex: 1;
-
 }
 .column2 {
     flex: 3;
-
 }
-
 
 
 
@@ -97,8 +117,6 @@ h1 {
 }
 
 .dark {
-    /* display: flex; */
-    /* justify-content: center; */
     background-color: #041b66;
 }
 
@@ -106,8 +124,9 @@ h1 {
     color: white;
 }
 
+
+
 .btn {
-  /* display: inline-block; */
     padding: 9px 19px;
     background-color: #4580c4;
     text-decoration: none;
@@ -122,7 +141,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #5790d1;
+  background-color: #7eaee5;
 }
 
 html {
@@ -134,12 +153,23 @@ html {
     line-height: 0.5;
 }
 
-
 a {
     text-decoration: none;
     color: white;
 }
 
+/* To make footer responsive */
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .column1 {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+    
+}
 
 .bottom {
     padding:8px; 
